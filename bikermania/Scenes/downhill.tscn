@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cddwqwrnvrkxg"]
+
+[ext_resource type="Script" uid="uid://whxpe2llq8vq" path="res://ground_spawner.gd" id="1_sxr7m"]
+
+[node name="Node3D" type="Node3D" unique_id=1704523039]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1713549761]
+transform = Transform3D(1, 0, 0, 0, 0.7556706, 0.6549519, 0, -0.6549519, 0.7556706, -0.7221724, 0.649848, 1.6439631)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=983686343]
+transform = Transform3D(0.8787338, -0.33713347, 0.33788747, -0.47731215, -0.62066424, 0.6220524, 0, -0.70789623, -0.70631653, 3.7319813, 3.4530132, -5.6325445)
+
+[node name="Ground Spawner" type="Node3D" parent="." unique_id=1211989619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6.1857824, -7.422099)
+script = ExtResource("1_sxr7m")
+spawn_interval = null
